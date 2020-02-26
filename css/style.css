@@ -34,7 +34,30 @@ input {
   width: 95%;
 }
 
-@media screen and (min-width: 768px) {
+nav>ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav>ul>li {
+  display: inline;
+}
+
+nav>ul.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+@media screen and (min-width: 480px) {
+  label {
+    display: inline-block;
+    padding-left: 1.75em;
+    margin-right: 5px;
+  }
+}
+
+@media screen and (min-width: 960px) {
   label {
     display: inline-block;
     padding-left: 1.75em;
