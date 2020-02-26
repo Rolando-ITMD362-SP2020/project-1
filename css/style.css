@@ -23,8 +23,13 @@ h1 {
   font-size: 2.074em;
 }
 
+h3 {
+  font-size: 1.44em;
+}
+
 h1,
-p {
+p,
+h3 {
   text-align: center;
   overflow: hidden;
   display: -webkit-box;
