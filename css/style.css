@@ -1,7 +1,17 @@
+/*All em values are based on a 16px default font size, and are calculated using
+the minor third ratio.
+
+https://www.modularscale.com/?16&px&1.44
+
+Color palette:
+https://paletton.com/#uid=33X0u0kdqnN0bRy08WvIQ9QM8le
+*/
+
 html {
-  line-height: 1.2em;
-  font-family: 'Ropa Sans', sans-serif;
-  font-size: 1.2em;
+  line-height: 1.44em;
+  font-family: 'Ropa Sans', Arial, sans-serif;
+  ;
+  font-size: 16px;
   -webkit-overflow-scrolling: touch;
   margin-top: 1em;
   background-color: mintcream;
@@ -9,8 +19,8 @@ html {
 
 h1 {
   font-weight: bold;
-  padding-bottom: 0.5em;
-  font-size: 1.3em;
+  padding-bottom: 0.694em;
+  font-size: 2.074em;
 }
 
 h1,
@@ -18,12 +28,26 @@ p {
   text-align: center;
 }
 
+p {
+  font-size: 1.44em;
+}
+
+section {
+  padding-bottom: 0.694em;
+  padding-top: 0.694em;
+}
+
+section>p {
+  padding-top: 0.335em;
+  padding-bottom: 0.335em;
+}
+
 form>ol>li {
   padding-top: 1em;
 }
 
 form>ol>li>label {
-  padding-bottom: 0.25em;
+  padding-bottom: 0.335em;
   display: block;
   text-align: center;
 }
@@ -36,8 +60,8 @@ form>ol>li>input {
 
 .navbar {
   width: 100%;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
+  padding-top: 0.694em;
+  padding-bottom: 0.694em;
   background-color: #555;
   overflow: auto;
 }
@@ -48,8 +72,8 @@ form>ol>li>input {
   text-decoration: none;
   width: 33.33%;
   text-align: center;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
+  padding-top: 0.694em;
+  padding-bottom: 0.694em;
 }
 
 .navbar a:hover {
@@ -79,8 +103,8 @@ img {
 @media screen and (min-width: 960px) {
   form>ol>li>label {
     display: inline-block;
-    padding-left: 1.75em;
-    margin-right: 5px;
+    padding-left: 1.44em;
+    margin-right: 6.43px;
   }
   img {
     max-width: 75%;
