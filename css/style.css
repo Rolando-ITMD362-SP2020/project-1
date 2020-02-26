@@ -10,11 +10,11 @@ https://paletton.com/#uid=33X0u0kdqnN0bRy08WvIQ9QM8le
 html {
   line-height: 1.44em;
   font-family: 'Ropa Sans', Arial, sans-serif;
-  ;
   font-size: 16px;
   -webkit-overflow-scrolling: touch;
   margin-top: 1em;
-  background-color: mintcream;
+  background-color: #040836;
+  color: #BEB56E;
 }
 
 h1 {
@@ -26,9 +26,14 @@ h1 {
 h1,
 p {
   text-align: center;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 
-p {
+p,
+label {
   font-size: 1.44em;
 }
 
@@ -44,6 +49,17 @@ section>p {
 
 form>ol>li {
   padding-top: 1em;
+}
+
+form>ol>li>input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  background-color: #F3F3F4;
+  color: #040836;
+  font-family: 'Ropa Sans', Arial, sans-serif;
+  font-size: 1.44em;
 }
 
 form>ol>li>label {
@@ -62,13 +78,13 @@ form>ol>li>input {
   width: 100%;
   padding-top: 0.694em;
   padding-bottom: 0.694em;
-  background-color: #555;
+  background-color: #4E2B00;
   overflow: auto;
 }
 
 .navbar a {
   float: left;
-  color: white;
+  color: #FFFFFE;
   text-decoration: none;
   width: 33.33%;
   text-align: center;
@@ -77,11 +93,11 @@ form>ol>li>input {
 }
 
 .navbar a:hover {
-  background-color: #000;
+  background-color: #4E4600;
 }
 
 .navbar a.active {
-  background-color: #4CAF50;
+  background-color: #A99700;
 }
 
 img {
