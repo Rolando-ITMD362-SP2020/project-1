@@ -36,18 +36,20 @@ form>ol>li>input {
 
 .navbar {
   width: 100%;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
   background-color: #555;
   overflow: auto;
 }
 
 .navbar a {
   float: left;
-  /*padding: 12px;*/
   color: white;
   text-decoration: none;
   width: 33.33%;
-  /* Four links of equal widths */
   text-align: center;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 .navbar a:hover {
@@ -58,18 +60,30 @@ form>ol>li>input {
   background-color: #4CAF50;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 98%;
+}
+
 @media screen and (min-width: 480px) {
-  label {
-    display: inline-block;
-    padding-left: 1.75em;
-    margin-right: 5px;
+  img {
+    max-width: 95%;
+    width: 95%;
   }
 }
 
 @media screen and (min-width: 960px) {
-  label {
+  form>ol>li>label {
     display: inline-block;
     padding-left: 1.75em;
     margin-right: 5px;
+  }
+  img {
+    max-width: 75%;
+    width: 75%;
   }
 }
