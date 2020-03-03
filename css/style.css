@@ -114,6 +114,10 @@ img {
   width: 98%;
 }
 
+.red {
+  background-color: red;
+}
+
 @media screen and (min-width: 480px) {
   img {
     max-width: 95%;
